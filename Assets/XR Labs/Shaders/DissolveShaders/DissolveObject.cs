@@ -1,32 +1,68 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(Renderer))]
 public class DissolveObject : MonoBehaviour
 {
-    [SerializeField] private float noiseStrength = 0.25f;
-    [SerializeField] private float objectHeight = 1.0f;
-
+    [SerializeField] float noiseStrength = 0.25f;
+    [SerializeField] float noiseScale = 50f;
+    [SerializeField] float cutoffHeight = 1.0f;
+    [SerializeField] float edgeWith = 1.0f;
+    [SerializeField] float TimeDelay = 2.0f;
+    
     private Material material;
-
+    [SerializeField] bool hasStarted = true;
+   public float timer = 0f;
+    float InitHight = 0f;
     private void Awake()
     {
+        
         material = GetComponent<Renderer>().material;
+
+       
+    }
+    private void Start()
+    {
+        InitHight = cutoffHeight;
+
+        material.SetFloat("_NoiseScale", noiseScale);
+        material.SetFloat("_EdgeWidth", edgeWith);
+        material.SetFloat("_NoiseStrength", noiseStrength);
+
     }
 
     private void Update()
-    {
-        var time = Time.time * Mathf.PI * 0.25f;
+     {
+        if (hasStarted)
+        {
+            timer += Time.deltaTime;
+           
 
-        float height = transform.position.y;
-        height += Mathf.Sin(time) * (objectHeight / 2.0f);
-        SetHeight(height);
-    }
+            var time = Time.time * Mathf.PI * 0.25f;
+
+            float height = transform.position.y;
+            height += Mathf.Sin(time) * (cutoffHeight / 2.0f);
+            SetHeight(height);
+        }
+        
+        if (hasStarted&& timer > TimeDelay)
+        {
+            
+            material.SetFloat("_CutoffHeight", InitHight);
+            hasStarted = false;
+        }
+     }
+ 
 
     private void SetHeight(float height)
     {
         material.SetFloat("_CutoffHeight", height);
-        material.SetFloat("_NoiseStrength", noiseStrength);
+        if (material.GetFloat("_CutoffHeight") >= cutoffHeight)
+        {
+            //use here Ienum
+        
+        }
     }
 }

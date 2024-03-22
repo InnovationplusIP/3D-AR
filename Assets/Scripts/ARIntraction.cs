@@ -93,7 +93,9 @@ public class ARInteraction : MonoBehaviour
         {
             Destroy(temp);
         }
+
        temp= Instantiate(prefab, placementPosition, placementPose.rotation);
+     //  temp.transform.localScale = new Vector3(0.1f,0.1f,0.1f);
        stopUpdate=true;    
        indicator.SetActive(false);    
     }

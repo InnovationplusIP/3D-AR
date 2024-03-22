@@ -177,11 +177,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 252411728848800558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &379669475478462360
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,11 +826,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1511172137066289333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &1514710900779379121
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,134 +920,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1726099220213641400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8964525357518861882}
-  - component: {fileID: 4581680243056017106}
-  m_Layer: 0
-  m_Name: boiling-water-sound-62556
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8964525357518861882
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726099220213641400}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3706970675443905556}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &4581680243056017106
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726099220213641400}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6fe0bb056ed0d504885ef93786f5e971, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1729554304756802391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,11 +1013,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1729554304756802391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &1819242759621142375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,6 +1034,7 @@ GameObject:
   - component: {fileID: 2273206854648478149}
   - component: {fileID: 5587298136259638788}
   - component: {fileID: 1778777281848519993}
+  - component: {fileID: 8478843879407619185}
   m_Layer: 0
   m_Name: Basic Wall 260 [202804].002
   m_TagString: Untagged
@@ -1197,7 +1085,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8f50dc415386d4841ac084c6f693285f, type: 2}
+  - {fileID: 2100000, guid: 1911180d84cfe6b4a84bfc132d9f1f55, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1219,6 +1107,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8478843879407619185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819242759621142375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noiseStrength: 0.25
+  noiseScale: 50
+  cutoffHeight: 1
+  edgeWith: 1
+  TimeDelay: 2
+  hasStarted: 1
+  timer: 0
 --- !u!1 &1920342576690086309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,11 +1551,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2228111836900891950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &2676554430430975198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,11 +1674,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1861139688866125796}
   - {fileID: 2741719902340940669}
-  - {fileID: 8964525357518861882}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2241692207962903760
@@ -1826,8 +1737,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 21.58205, y: 7.5083933, z: 20.751123}
-  m_Center: {x: 0.046203136, y: 3.2541966, z: -0.82459}
+  m_Size: {x: 18.61084, y: 7.5083933, z: 18.521729}
+  m_Center: {x: 0.02319336, y: 3.2541966, z: -0.85388184}
 --- !u!1 &2894831016663337671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,7 +1920,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6e360199c1b292046a112cffdbf516df, type: 2}
+  - {fileID: 2100000, guid: b3f64576b0bd51e4a8bd4efad04a8fe7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2373,11 +2284,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3993105115253844240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &4057523399689879576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2888,11 +2804,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4957626418599141332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &5225283598473396608
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,11 +3074,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5798906079799444908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &5976904399833101309
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,11 +3177,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5976904399833101309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &6236464568821074902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3681,11 +3612,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6610159635341597134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &6709521861360040350
 GameObject:
   m_ObjectHideFlags: 0
@@ -4111,11 +4047,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7599931050186625525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &7661513777575277946
 GameObject:
   m_ObjectHideFlags: 0
@@ -4209,11 +4150,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7661513777575277946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &7830665111624724163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,7 +4304,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8f50dc415386d4841ac084c6f693285f, type: 2}
+  - {fileID: 2100000, guid: 1911180d84cfe6b4a84bfc132d9f1f55, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4473,11 +4419,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8077708404725618846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &8385023778601617483
 GameObject:
   m_ObjectHideFlags: 0
@@ -4539,7 +4490,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8f50dc415386d4841ac084c6f693285f, type: 2}
+  - {fileID: 2100000, guid: 1911180d84cfe6b4a84bfc132d9f1f55, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4654,11 +4605,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8462353048264133067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &8795798718748223439
 GameObject:
   m_ObjectHideFlags: 0
@@ -4752,11 +4708,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8795798718748223439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ab13e1cfd747541acc3b8a9fa87666, type: 3}
+  m_Script: {fileID: 11500000, guid: f6aaa0cd21184164e9697d6433db72f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseStrength: 0.08
-  objectHeight: 1.7
+  noiseStrength: 0.25
+  noiseScale: 3.5
+  cutoffHeight: 1.5
+  edgeWith: 0.01
+  TimeDelay: 25
+  hasStarted: 1
+  timer: 0
 --- !u!1 &9098105211515524272
 GameObject:
   m_ObjectHideFlags: 0
