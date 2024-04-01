@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -830,7 +830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -2288,7 +2288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -2808,7 +2808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -3078,7 +3078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -3181,7 +3181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -3616,7 +3616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -4051,7 +4051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -4154,7 +4154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -4423,7 +4423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -4609,7 +4609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
@@ -4712,7 +4712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseStrength: 0.25
-  noiseScale: 3.5
+  noiseScale: 1
   cutoffHeight: 1.5
   edgeWith: 0.01
   TimeDelay: 25
