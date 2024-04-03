@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 38c6097c729ebc64089d94268d52d8b5
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Branch_Bake1_baked
+    second: {fileID: 2100000, guid: 9d2ca37c8dc82f643b6dd2146d2399e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush2_Bake2_baked
+    second: {fileID: 2100000, guid: fe441448d888e6649b1fdf2d4b816188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush3_Bake3_baked.001
+    second: {fileID: 2100000, guid: 4cba6fe915451eb418d2abc0a0debe07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BushPlane_Bake1_baked
+    second: {fileID: 2100000, guid: 6bc9ba0318332a64588770f41452d95a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree1_Bake1_baked
+    second: {fileID: 2100000, guid: d57011a841e27ee4abde6ebedf88dac2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree2_Bake1_baked
+    second: {fileID: 2100000, guid: 2d8958f0287d64b449a3c4d1b72dfe33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree3_Bake1_baked
+    second: {fileID: 2100000, guid: 1abaab93045232747b4855c870fb7d74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vert.002_Bake1_baked
+    second: {fileID: 2100000, guid: c29a3704e0ace6a4c9e2964cb5175df7, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Branch_Bake1_pbr_alpha
+    second: {fileID: 2800000, guid: 30448384b1ebdfa42900fe6ab0993b59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Branch_Bake1_pbr_diffuse
+    second: {fileID: 2800000, guid: a493e6e8510267843b699baf4e1006ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Branch_Bake1_pbr_normal
+    second: {fileID: 2800000, guid: 478c192aa60d89e4b954760c1379b707, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Branch_Bake1_pbr_roughness
+    second: {fileID: 2800000, guid: 30f7a930d0d9bc24ea0d71376b45b29b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Branch_Bake1_pbr_specular
+    second: {fileID: 2800000, guid: 6f47e8adb19028846ad6a58cf20a398e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush2_Bake2_pbr_diffuse
+    second: {fileID: 2800000, guid: 71a6be564d4f35947a69c269114983fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush2_Bake2_pbr_normal
+    second: {fileID: 2800000, guid: bb5a57c7fd0d58f4e9a762984ad67b56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush2_Bake2_pbr_roughness
+    second: {fileID: 2800000, guid: 87ccb5145d497804499b7033031a39ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush2_Bake2_pbr_specular
+    second: {fileID: 2800000, guid: 45ee47ccbd2a5c84b971522143ee096f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush3_Bake3_pbr_diffuse
+    second: {fileID: 2800000, guid: 6f88ddc9a81d9a54d8095969bbf19f98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush3_Bake3_pbr_normal
+    second: {fileID: 2800000, guid: 2b711b40aafb2e148a85237e05bbebc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush3_Bake3_pbr_roughness
+    second: {fileID: 2800000, guid: 8023c4e4fa9c9fb489d03379f2827e9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bush3_Bake3_pbr_specular
+    second: {fileID: 2800000, guid: baaccff6d49ba2d4ca01dddc6da4fbef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BushPlane_Bake1_pbrs2a_alpha
+    second: {fileID: 2800000, guid: 2f856c482d3cf46498b1a21faadcac72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BushPlane_Bake1_pbrs2a_diffuse
+    second: {fileID: 2800000, guid: 97b73c9f8a4d9334dbb76528316e3ddd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BushPlane_Bake1_pbrs2a_normal
+    second: {fileID: 2800000, guid: 06ae11c1d6a3fa247b711c04795b934f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BushPlane_Bake1_pbrs2a_roughness
+    second: {fileID: 2800000, guid: 880dec1f9f2de7a4da7a4709ec393ebe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BushPlane_Bake1_pbrs2a_specular
+    second: {fileID: 2800000, guid: e4e9bdf8cfba5b1418b4e53c0296c239, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree1_Bake1_pbr_diffuse
+    second: {fileID: 2800000, guid: 9a93ede3c5b367442bbc39b96a86b26f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree1_Bake1_pbr_normal
+    second: {fileID: 2800000, guid: 7280779920b6b1247abfa79d13d88f57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree1_Bake1_pbr_roughness
+    second: {fileID: 2800000, guid: 152e286c60afdab45b30dca14ec5aef6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree1_Bake1_pbr_specular
+    second: {fileID: 2800000, guid: 2c2085231f8e46043be36043e8a55ccf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree2_Bake1_pbr_diffuse
+    second: {fileID: 2800000, guid: 415c0507ecb450148a69bf84cfc91bdc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree2_Bake1_pbr_normal
+    second: {fileID: 2800000, guid: 57d48a01d1ad1f34ba00af04f07e8bab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree2_Bake1_pbr_roughness
+    second: {fileID: 2800000, guid: 6abcaae0267a958498a0658310461d6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree2_Bake1_pbr_specular
+    second: {fileID: 2800000, guid: d7d08bd3b0ffc4b428bd750e4ac743c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree3_Bake1_pbr_diffuse
+    second: {fileID: 2800000, guid: 1b023753e94f5ce40961c728a05753a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree3_Bake1_pbr_normal
+    second: {fileID: 2800000, guid: a9e955fdb8011cc49adc96cea842a415, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree3_Bake1_pbr_roughness
+    second: {fileID: 2800000, guid: f4d6b9f7f09c4e142894e13e088d404b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tree3_Bake1_pbr_specular
+    second: {fileID: 2800000, guid: 47de0978a8e64d14ab339150bfaec956, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vert.002_Bake1_pbr_diffuse
+    second: {fileID: 2800000, guid: 332627f58b30fb140b0bf6d26cdf718c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vert.002_Bake1_pbr_normal
+    second: {fileID: 2800000, guid: 8c1cee2a83d3ce04e86253b2e7cbf18d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vert.002_Bake1_pbr_roughness
+    second: {fileID: 2800000, guid: a47d6c9b347f6b142894270e9b57f60f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vert.002_Bake1_pbr_specular
+    second: {fileID: 2800000, guid: b91286cc8125fd44e81c3ffd9b9ad4e5, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

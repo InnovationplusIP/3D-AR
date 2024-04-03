@@ -10,7 +10,8 @@ public class DissolveObject : MonoBehaviour
     [SerializeField] float noiseScale = 50f;
     [SerializeField] float cutoffHeight = 1.0f;
     [SerializeField] float edgeWith = 1.0f;
-    [SerializeField] float TimeDelay = 2.0f;
+    [SerializeField] float TimeDelay = 0.15f;
+    [SerializeField] float TimetoStop = 2.0f;
     
     private Material material;
     [SerializeField] bool hasStarted = true;
@@ -40,14 +41,14 @@ public class DissolveObject : MonoBehaviour
             timer += Time.deltaTime;
            
 
-            var time = Time.time * Mathf.PI * 0.25f;
+            var time = Time.time * Mathf.PI *TimeDelay;
 
             float height = transform.position.y;
             height += Mathf.Sin(time) * (cutoffHeight / 2.0f);
             SetHeight(height);
         }
         
-        if (hasStarted&& timer > TimeDelay)
+        if (hasStarted&& timer > TimetoStop)
         {
             
             material.SetFloat("_CutoffHeight", InitHight);
