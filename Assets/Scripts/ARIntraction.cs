@@ -16,6 +16,7 @@ public class ARInteraction : MonoBehaviour
     [SerializeField] private GameObject []productBtn;
     [SerializeField] private GameObject[] placementObjects;
     GameObject temp=null;
+  
     bool stopUpdate=false;
 
     private void Update()
@@ -83,17 +84,19 @@ public class ARInteraction : MonoBehaviour
     }
     public void PlaceObject(int randomIndex)
     {
+        
         GameObject prefab = placementObjects[randomIndex];
         Vector3 objectSize = GetObjectSize(prefab);
 
 
         Vector3 placementPosition = temp ? temp.transform.position: placementPose.position;
         placementPosition.y = placementPose.position.y - (objectSize.y / 2);
+       
         if (temp!=null)
         {
             Destroy(temp);
         }
-
+        
        temp= Instantiate(prefab, placementPosition, placementPose.rotation);
      //  temp.transform.localScale = new Vector3(0.1f,0.1f,0.1f);
       
