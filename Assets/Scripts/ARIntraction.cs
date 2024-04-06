@@ -90,7 +90,7 @@ public class ARInteraction : MonoBehaviour
 
 
         Vector3 placementPosition = temp ? temp.transform.position: placementPose.position;
-        placementPosition.y = placementPose.position.y - (objectSize.y / 2);
+        placementPosition.y = placementPose.position.y - (objectSize.y / 2.5f);
        
         if (temp!=null)
         {
